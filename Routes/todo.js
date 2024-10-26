@@ -6,6 +6,7 @@ let todos = [
     { id: 2, task: "Membuat API", completed: false },
 ];
 
+// CRUD REST API
 // GET all todos
 router.get('/', (req, res) => {
     res.json(todos);
